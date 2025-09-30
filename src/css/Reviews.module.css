@@ -1,0 +1,67 @@
+.title{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 3px 0px 5px black;
+    font-size: 50px;
+}
+
+.flex{
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    margin-top: 70px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.flex .box{
+    width: 460px;
+    height: 440px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 30px 50px;
+    overflow: visible;
+}
+
+.flex .box h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex .box .starFlex{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.flex .box .starFlex img{
+    width: 30px;
+    height: 30px;
+}
+
+.flex .box .textBox{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.flex .box .textBox p{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mediaBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mediaBox img{
+    width: 80px;
+    height: 90px;
+    bottom: 75px;
+    position: relative;
+}

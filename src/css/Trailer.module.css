@@ -1,0 +1,10 @@
+.video{
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: blue;
+}

@@ -1,0 +1,32 @@
+.clients h1{
+    font-family: inter,sans-serif;
+    text-align: center;
+    color: rgb(93, 87, 87);
+    font-size: 50px
+}
+
+.clients p{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+    color: rgb(115, 136, 129);
+}
+
+.clients .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.clients .container img{
+    width: 120px;
+    height: 120px;
+}
+
+.clients{
+    margin-bottom: 200px;
+    background-color: rgb(216, 202, 202);
+    padding: 20px ;
+    box-shadow: 2px 2px 20px black;
+}
